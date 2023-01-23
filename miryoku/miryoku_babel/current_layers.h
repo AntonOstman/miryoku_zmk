@@ -1,7 +1,7 @@
 
-#define SE_AO RALT(w)
-#define SE_AE RALT(q)
-#define SE_OE RALT(p) 
+//#define SE_AO RALT(w)
+//#define SE_AE RALT(q)
+//#define SE_OE RALT(p) 
 
 
 #define MIRYOKU_ALTERNATIVES_BASE_QWERTY \
@@ -17,7 +17,7 @@ U_NA,              &kp RALT,          &u_to_U_FUN,       &u_to_U_MEDIA,     U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp C_STOP,        &kp C_PP,          &kp C_MUTE,        U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
-&kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       &kp SE_AO,            \
+&kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_NA,            \
 &kp COLON,         &kp DLLR,          &kp PRCT,          &kp CRRT,          &kp PLUS,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,         &kp LGUI,          \
 &kp TILDE,         &kp EXCL,          &kp AT,            &kp HASH,          &kp PIPE,          U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
