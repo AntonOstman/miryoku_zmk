@@ -2,6 +2,18 @@
 // https://github.com/manna-harbour/miryoku
 
 / {
+    macros {
+        SE_AO: SE_AO {
+            label = "SE_AO";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LALT >
+                , <&macro_tap &kp KP_NUM &kp KP_N1 &kp KP_N2 &kp K &kp KP_NUM>
+                , <&macro_release &kp LALT>
+                ;
+        };
+    };
   behaviors {
     u_mt: u_mt {
       compatible = "zmk,behavior-hold-tap";
